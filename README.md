@@ -9,7 +9,7 @@ Krishna Rohith Mukka
 * **Dataset:** In this project, we have used five datasets merged to one file, they are, Fire accidents, Abuse, Car accidents, Vandalism and Violence from [universe.roboflow.com](url) .This dataset has 18704 images.
 .
   * The dataset is available here: https://drive.google.com/drive/folders/1YtxUcJATtDcZTabTVsauUyY4iF9dMC0A?usp=sharing
-* **Methodology:**  A pre-trained InceptionV3 model which is trained on ImageNet dataset is selected as the base model for transfer learning. Two fully connected layers are added to classify anomalies across five classes fire accidents, abuse, car accidents, vandalism, and Violence. The video feed is processed frame-by-frame using OpenCV. For each frame, the model predicts the class and confidence score. 
+* **Methodology:**  A pre-trained InceptionV3 model which is trained on ImageNet dataset is selected as the base model for transfer learning. Two fully connected layers are added to classify anomalies across five classes fire accidents, abuse, car accidents, vandalism, and Violence. The video feed is processed frame-by-frame using OpenCV. For each frame, the model predicts the class and confidence score. Using twilio we created a notification system which sends notification to the user when anomaly is detected.
 
 * **Results:** Results obtained in the project with 1-2 charts / images (to be completed at the end of the semester)
 * Poster (as an image)
