@@ -12,7 +12,7 @@ Krishna Rohith Mukka
 * **Methodology:**  A pre-trained InceptionV3 model which is trained on ImageNet dataset is selected as the base model for transfer learning. Two fully connected layers are added to classify anomalies across five classes fire accidents, abuse, car accidents, vandalism, and Violence. The video feed is processed frame-by-frame using OpenCV. For each frame, the model predicts the class and confidence score. Using twilio we created a notification system which sends notification to the user when anomaly is detected.
 
 * **Results:** In this project we successfully implemented a anomaly detection system using the YOLOv8n model. The uploaded video is analyzed frame by frame and look for anomalies and detects it with higher accuracy. Frames containing detected anomalies were saved, annotated with bounding boxes and class labels. The notification system successfully sends the user notification immediately after detecting the anomalies. The Evaluation Metrics: Precision : 1.00, Recall : 0.80, F1 Score: 0.89, Mean IoU: 0.70.
-* ![Screenshot 2024-11-18 155645](https://github.com/user-attachments/assets/b86e1454-1e34-4cfd-a793-a571d8b4a6a4)
+ ![Screenshot 2024-11-18 155645](https://github.com/user-attachments/assets/b86e1454-1e34-4cfd-a793-a571d8b4a6a4)
 
 
 * Poster (as an image)
